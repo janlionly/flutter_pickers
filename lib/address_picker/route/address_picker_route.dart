@@ -410,7 +410,7 @@ class _PickerState extends State<_PickerContentView> {
                   widget.route.onConfirm!(
                       _currentProvince, _currentCity, _currentTown);
                 }
-                Navigator.pop(context, true);
+                //Navigator.pop(context, true);
               },
               child: _pickerStyle.commitButton)
         ],

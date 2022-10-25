@@ -284,7 +284,7 @@ class _PickerState extends State<_PickerContentView> {
                 if (widget.route.onConfirm != null) {
                   widget.route.onConfirm!(_selectData, _selectDataPosition);
                 }
-                Navigator.pop(context, true);
+                //Navigator.pop(context, true);
               },
               child: _pickerStyle.commitButton)
         ],

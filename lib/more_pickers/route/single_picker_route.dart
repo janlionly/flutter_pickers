@@ -311,7 +311,7 @@ class _PickerState extends State<_PickerContentView> {
                   print('longer   _selectPosition >>> ${_selectPosition}');
                   widget.route.onConfirm!(_selectData, _selectPosition);
                 }
-                Navigator.pop(context, true);
+                //Navigator.pop(context, true);
               },
               child: _pickerStyle.commitButton)
         ],
